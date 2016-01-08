@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+
 find_package(ITK REQUIRED )
 if(ITK_FOUND)
   include(${USE_ITK_FILE})
